@@ -22,23 +22,23 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am a Software Engineer specilizing in iOS Development.",
+    "aboutme":"I am a Software Engineer specilized in iOS Development. When not coding, I enjoy spending my time on the latest FIFA edition. Find my contact informations below if you'd like to get in touch.",
     "address":"San Francisco, California",
     "website":"mediassumani49@gmail.com",
     "education":[
       {
         "UniversityName":"Make School",
-        "specialization":"Some specialization",
+        "specialization":"Software Engineering - iOS",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "Achievements":"Open-Sourced a networking library, shipped iOS applications, and developed REST APIs on team projects."
       },
       {
         "UniversityName":"Orange High School",
-        "specialization":"Some specialization",
+        "specialization":"",
         "MonthOfPassing":"Jan",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"Graduated in Honor Society, 4th of my clas with a 4.0 GPA, 5 score on AP Calculus and 3 on AP Computer Science"
       }
     ],
     "work":[
@@ -54,7 +54,7 @@ let resumeData = {
         "specialization":"Information Technology Intern",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"● Resolved and closed a total of 250 IT tickets during a 10-week internship. ● Built 10 Virtual machines for the AppDev department using vSphere. ● Tracked, monitored, and escalated firm-wide IT requests through JIRA Software."
       }
     ],
     "skillsDescription":"Languages & Frameworks",
@@ -105,7 +105,7 @@ let resumeData = {
       {
         "name":"Scholarboard",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/portfolio/scholarboard.png"
       },
       {
         "name":"OktoIDE",
@@ -120,19 +120,15 @@ let resumeData = {
       {
         "name":"SoccerU",
         "description":"Authenticated and free HTTP REST API that serves real data for soccer teams.",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/soccerULogo.png"
+      },
+
+      {
+        "name":"Gitviwr",
+        "description":"Lightweight, secure, and real time chrome extension that notifies users via email when their Github profile has been viewed(LinkedIn style).",
+        "imgurl":"images/portfolio/gitviwr_github_log.png"
       }
     ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
   }
   
   export default resumeData
